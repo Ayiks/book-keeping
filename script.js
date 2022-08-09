@@ -77,6 +77,7 @@ items.appendChild(activitys);
 fetch('http://localhost:3000/api/v1/activities', {
         method: 'GET',
         mode: 'cors',
+        
         headers: {
             'Accept': '*',
             'Content-Type': 'application/json'
