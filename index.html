@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Record Keeper</title>
+   
+</head>
+<body>
+    <div class="container">
+        <!-- left side -->
+        <aside class="aside">
+            <div class="logo">
+                <img src="./assets/FarmKeep.svg" alt="">
+            </div>
+            <div class="books">
+                <div class="book">Farm 1</div>
+                <div class="book">Farm 2</div>
+                <div class="book">Farm 3</div>
+            </div>
+            <button type="submit" class="create-btn">+ Create Book</button>
+            <div class="profile">
+                <img class="profile-pic" src="./assets/IMG_8149.jpg" alt="pic">
+                <span>Kweku Frimpong</span>
+                <img class="arrow" src="./assets/keyboard_arrow_up.svg" alt="">
+            </div>
+        </aside>
+        <!-- main section -->
+        <div class="main">
+            <div class="fixed">
+                <!-- Heading and search bar -->
+                <div class="head">
+                    <div class="">
+                        <span>Record Keeping for</span>
+                        <span>Farm 1</span>
+                    </div>
+                    <div class="search">
+                        <img src="./assets/icons8_search_24px_2.png" alt="" />
+                        <input type="text" placeholder="search">
+                    </div>
+                </div>
+                <!-- generate qr code and add buttons -->
+                <div class="bar">
+                    <button class="qrcode">GENERATE QR CODE
+                        <img src="./assets/qr_code_scanner.png" alt="" />
+                    </button>
+                    <div class="buttons">
+                        <button class="edit">
+                            <i class="fa fa-pencil"></i>
+                            Edit Record</button>
+                        <button class="add-btn">+Add Record</button>
+                    </div>
+                </div>
+            </div>
+            <!-- first row of records -->
+            <div class="records">
+                <div class="card">
+                    <div class="img"></div>
+                    <div class="details">
+                        <div class="items">
+                            <span class="plant">Groundnuts</span>
+                            <span class="activity">Harvets</span>
+                        </div>
+                        <div class="date">Today</div>
+                    </div>
+                </div> <div class="card">
+                    <div class="img"></div>
+                    <div class="details">
+                        <div class="items">
+                            <span class="plant">Groundnuts</span>
+                            <span class="activity">Harvets</span>
+                        </div>
+                        <div class="date">Today</div>
+                    </div>
+                </div> <div class="card">
+                    <div class="img"></div>
+                    <div class="details">
+                        <div class="items">
+                            <span class="plant">Groundnuts</span>
+                            <span class="activity">Harvets</span>
+                        </div>
+                        <div class="date">Today</div>
+                    </div>
+                </div> <div class="card">
+                    <div class="img"></div>
+                    <div class="details">
+                        <div class="items">
+                            <span class="plant">Groundnuts</span>
+                            <span class="activity">Harvets</span>
+                        </div>
+                        <div class="date">Today</div>
+                    </div>
+                </div> <div class="card">
+                    <div class="img"></div>
+                    <div class="details">
+                        <div class="items">
+                            <span class="plant">Groundnuts</span>
+                            <span class="activity">Harvets</span>
+                        </div>
+                        <div class="date">Today</div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="end">
+                <button class="plus add-btn">+</button>
+            </div>
+        </div>
+    </div>
+    <div id="modal" class="modal">
+        <div id="add" class="add">
+
+        </div>
+        < divclass="form">
+            <span class="title">Add Record</span>
+            <input type="text" placeholder="Farm Name" id="farm">
+            <input type="text" placeholder="Plant" id="plant">
+            <input type="text" placeholder="Activity" id="activity">
+            <input type="date" placeholder="Date" id="date">
+            <button id="submit" class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+  <script>
+    
+let username = "Clifford";
+let age = 15;
+
+// if(username== "Clifford" && age <18){
+//     console.log("You are not allowed to enter");
+// } else{
+//     console.log("Welcome");
+// }
+
+let num1 = 17
+if(num1 %2 == 0){
+    console.log("Even");
+} else{
+    console.log("Odd");
+}
+
+
+for(nancy=0;nancy<=20;nancy++){
+   if(nancy %2 == 1)
+   console.log(nancy)
+}
+
+  </script>
+    
+</body>
+</html>
